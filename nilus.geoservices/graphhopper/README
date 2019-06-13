@@ -1,0 +1,2 @@
+docker build -t graphhopper:nilus_arg .
+docker run --name graphhopper -v graphhopperdata:/data -p 8989:8989 -d graphhopper:nilus_arg

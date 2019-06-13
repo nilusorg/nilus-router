@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Leaflet OSRM Example</title>
+    <link rel="stylesheet" href="bootstrap.css" />
+    <link rel="stylesheet" href="leaflet.css" />
+    <link rel="stylesheet" href="leaflet-routing-machine.css" />
+    <link rel="stylesheet" href="kendo.common-material.min.css" />
+    <link rel="stylesheet" href="kendo.material.min.css" />
+    <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+    <div id="map" class="map"></div>
+    <div class="footer navbar-fixed-bottom">
+        <div class="col-md-12 form-inline m-5 p-5">
+            <div class="col-md-1">
+            </div>
+            <div class="col-md-1">
+                <button class="k-button" id="load">Load</button>
+            </div>
+            <div class="col-md-2">
+                <button class="k-button" id="process">Process</button>
+            </div>
+            <div class="col-md-6">
+                <p id='logs' style="background-color: whitesmoke; width: 100%; height: 65px; overflow-y: scroll;">
+                </p>
+            </div>
+            <div class="col-md-1">
+                <button class="k-button" id="save">Save</button>
+            </div>
+            <div class="col-md-1">
+            </div>
+        </div>
+    </div>
+    <script src="jquery.js"></script>
+    <script src="bootstrap.js"></script>
+    <script src="kendo.all.min.js"></script>
+    <script src="leaflet.js"></script>
+    <script src="leaflet-routing-machine.js"></script>
+    <script src="lrm-graphhopper-1.2.0.js"></script>
+    <script src="Control.Geocoder.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
