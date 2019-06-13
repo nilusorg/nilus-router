@@ -1,0 +1,11 @@
+type	id	x	y	skills
+messenger A 13750   57578   normal
+messenger B 15104   53410   normal|freezer
+messenger C 13728   55801   normal
+messenger D 12741   63478   normal
+messenger E 14676   18575   normal
+messenger F 12741   63478   normal
+messenger G 12741   63478   normal
+messenger J 13728   56304   normal
+messenger K 13728   56304   normal
+messenger L 13728   56304   normal|freezer
